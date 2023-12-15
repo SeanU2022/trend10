@@ -1,6 +1,8 @@
 ---
 import { type CollectionEntry, getCollection } from 'astro:content';
-import ProjectLayout from '../../layouts/Layout.astro';
+import ProjectLayout from '../../layouts/ProjectLayout.astro';
+
+// Where the fuck is the detail content: **File System** or JSON (Still needs to be done)
 
 export async function getStaticPaths() {
 	const projects = await getCollection('projects');

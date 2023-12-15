@@ -4,6 +4,7 @@
       {
         "project_id": "004-pawfy",
         "title": "004-pawfy",
+        "slug": "a",
         "images": [
           "1.png",
           "2.png",
@@ -55,6 +56,7 @@
       {
         "project_id": "003-colustrum",
         "title": "003-colustrum",
+        "slug": "b",
         "images": [
           "1.png",
           "2.png",
@@ -85,6 +87,7 @@
       {
         "project_id": "005-volcano-humidifier",
         "title": "005-volcano-humidifier",
+        "slug": "c",
         "images": [
           "1.png",
           "10.png",
@@ -131,6 +134,7 @@
       {
         "project_id": "002-openoffice",
         "title": "002-openoffice",
+        "slug": "d",
         "images": [
 
         ],
@@ -160,6 +164,7 @@
       {
         "project_id": "006-boucle-sofa",
         "title": "006-boucle-sofa",
+        "slug": "a",
         "images": [
           "1.png",
           "10.png",
@@ -208,6 +213,7 @@
       {
         "project_id": "001-codepal",
         "title": "001-codepal",
+        "slug": "a",
         "images": [
           "1.png",
           "2.png",
