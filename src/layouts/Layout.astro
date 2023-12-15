@@ -25,7 +25,9 @@ const { title } = Astro.props;
 	</head> -->
 	<body>
 		<Header title={SITE_TITLE} />
-		<slot />
+    <div class="mx-4 md:mx-8 lg:mx-16">
+		  <slot />
+    </div>
 		<Footer />
 	</body>
 </html>

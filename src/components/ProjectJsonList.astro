@@ -1,0 +1,20 @@
+---
+import data from '../data/trend10.json';
+
+const projects = data.trend10.video_projects;
+console.log(projects);
+---
+
+<section>
+  <h2 class="text-2xl font-bold my-5">Projects</h2>
+  <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    {projects.map((project) => (
+      <li key={project.project_id ?? project.slug} class="border rounded-lg shadow-md overflow-hidden">
+        <a href={`/projects/${project.slug}`} class="block p-4 hover:bg-gray-50">
+          <h3 class="text-lg font-semibold">{project.title ?? 'Untitled Project'}</h3>
+          <p class="mt-2 text-gray-600">{project.description ?? 'No description available.'}</p>
+        </a>
+      </li>
+    ))}
+  </ul>
+</section>
