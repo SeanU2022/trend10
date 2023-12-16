@@ -2,8 +2,9 @@
 import data from '../data/trend10.json';
 
 // Where the fuck is the content: its in a JSON file
-const projects = data.trend10.video_projects;
-console.log(projects);
+const projects = data.trend10.video_projects.sort((a, b) => a.slug.localeCompare(b.slug));
+// console.log(projects);
+
 ---
 
 <section>

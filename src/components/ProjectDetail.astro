@@ -1,0 +1,91 @@
+---
+import data from '../data/trend10.json';
+import { marked } from 'marked';
+
+// "media": {
+//           "asset": [
+//             {
+//               "type": "voiceover",
+//               "file": "03-script-1.mp3"
+//             },
+//             {
+//               "type": "voiceover",
+//               "file": "03-script-2.mp3"
+//             }
+//           ]
+//         }
+
+
+interface Props {
+	slug: string;
+}
+
+const { slug } = Astro.props;
+
+const projects = data.trend10.video_projects;
+// console.log(projects);
+const project = projects.find((project) => project.slug === slug);
+
+if (!project) {
+  throw new Error(`Project not found: ${slug}`);
+} else {
+  // Console log a JSON document as a string
+  console.log(JSON.stringify(project, null, 2));
+}
+function renderMarkdownToHTML(markdownContent) {
+  return marked.parse(markdownContent);
+}
+
+---
+<section>
+	<h1 class="text-3xl font-bold my-5">{project.title}</h1>
+
+  <h2 class="text-2xl font-bold my-5">Projects</h2>
+  <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    <li key={project.project_id ?? project.slug} class="border rounded-lg shadow-md overflow-hidden">
+      <a href={`/projects/${project.slug}`} class="block p-4 hover:bg-gray-50">
+        <h3 class="text-lg font-semibold">{project.title ?? 'Untitled Project'}</h3>
+        <p class="mt-2 text-gray-600">{project.description ?? 'No description available.'}</p>
+      </a>
+    </li>
+  </ul>
+
+  <!-- Render each script in an accordian, the conent property needs to be rendered as Markdown to HTML -->
+
+  <h2 class="text-2xl font-bold my-5">Scripts</h2>
+  <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    {project.scripts.map((script) => (
+      <li key={script.file_name} class="border rounded-lg shadow-md overflow-hidden">
+        <a href={`/projects/${project.slug}/scripts/${script.file_name}`} class="block p-4 hover:bg-gray-50">
+          <h3 class="text-lg font-semibold">{script.file_name}</h3>
+          <p class="mt-2 text-gray-600">{script.type}</p>
+          <div class="prose">
+            <p class="mt-2 text-gray-600" set:html={renderMarkdownToHTML(script.content)}></p>
+          </div>
+        </a>
+      </li>
+    ))}
+  </ul>
+
+  <h2 class="text-2xl font-bold my-5">Media</h2>
+  
+  <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    {project.media.asset.map((asset) => (
+      <li key={asset.file} class="border rounded-lg shadow-md overflow-hidden">
+        <a href={`/projects/${project.slug}/media/${asset.file}`} class="block p-4 hover:bg-gray-50">
+          <h3 class="text-lg font-semibold">{asset.file}</h3>
+          <p class="mt-2 text-gray-600">{asset.type}</p>
+        </a>
+      </li>
+    ))}
+    </ul>
+
+  <h2 class="text-2xl font-bold my-5">Images</h2>
+
+  <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    {project.images.map((image) => (
+      <li key={image}>{image}</li>
+    ))}
+  </ul>
+
+</section>

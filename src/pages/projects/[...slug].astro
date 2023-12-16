@@ -1,23 +1,46 @@
 ---
 import { type CollectionEntry, getCollection } from 'astro:content';
 import ProjectLayout from '../../layouts/ProjectLayout.astro';
+import ProjectDetail from '../../components/ProjectDetail.astro';
+
+
+import data from '../../data/trend10.json';
 
 // Where the fuck is the detail content: **File System** or JSON (Still needs to be done)
 
 export async function getStaticPaths() {
-	const projects = await getCollection('projects');
+	// const projects = await getCollection('projects');
+  const projects = data.trend10.video_projects;
 	return projects.map((project) => ({
 		params: { slug: project.slug },
 		props: project,
 	}));
 }
+
+// export async function getStaticPaths() {
+// 	return [{
+// 		params: { slug: "fucker1" },
+// 		props: { who: 'david' },
+// 	},
+//   {
+// 		params: { slug: "fucker2" },
+// 		props: { who: 'sean' },
+// 	},
+//   {
+// 		params: { slug: "god-complex" },
+// 		props: { who: 'sean' },
+// 	}];
+// }
+
+
 type Props = CollectionEntry<'projects'>;
 
 const project = Astro.props;
-const { Content } = await project.render();
+console.log(project);
+// const { Content } = await project.render();
+
 ---
 
 <ProjectLayout {...project.data}>
-	<h2>{project.data.title}</h2>
-	<Content />
+  <ProjectDetail slug={project.slug}
 </ProjectLayout>

@@ -3,8 +3,8 @@
     "video_projects": [
       {
         "project_id": "004-pawfy",
+        "slug": "004-pawfy",
         "title": "004-pawfy",
-        "slug": "a",
         "images": [
           "1.png",
           "2.png",
@@ -55,8 +55,8 @@
       },
       {
         "project_id": "003-colustrum",
+        "slug": "003-colustrum",
         "title": "003-colustrum",
-        "slug": "b",
         "images": [
           "1.png",
           "2.png",
@@ -86,8 +86,8 @@
       },
       {
         "project_id": "005-volcano-humidifier",
+        "slug": "005-volcano-humidifier",
         "title": "005-volcano-humidifier",
-        "slug": "c",
         "images": [
           "1.png",
           "10.png",
@@ -133,8 +133,8 @@
       },
       {
         "project_id": "002-openoffice",
+        "slug": "002-openoffice",
         "title": "002-openoffice",
-        "slug": "d",
         "images": [
 
         ],
@@ -163,8 +163,8 @@
       },
       {
         "project_id": "006-boucle-sofa",
+        "slug": "006-boucle-sofa",
         "title": "006-boucle-sofa",
-        "slug": "a",
         "images": [
           "1.png",
           "10.png",
@@ -212,8 +212,8 @@
       },
       {
         "project_id": "001-codepal",
+        "slug": "001-codepal",
         "title": "001-codepal",
-        "slug": "a",
         "images": [
           "1.png",
           "2.png",
@@ -226,16 +226,39 @@
             "content": "## Make a video\n\n1. Take the script and put it into pictory\n  - Download the video into the folder\n2. Put same script into invideo.ai\n\n2. You can see the title and description below\n3. Upload a video\n  - Fill in the title\n  - Fill in the description\n4. Create a thumbnail\n  - Make 5 sample thumbnails using (DALE3) & Midjourney\n  - Create a thumbnail\n  - Download into the folder\n"
           },
           {
-            "file_name": "script.md",
+            "file_name": "02-script.md",
             "type": "script",
-            "content": "## Title\n\nAI-Powered Coding with CodePal: Too Good To Be True?\n\n## Script\n\nWelcome to our tech channel, where today, we're diving into the world of AI coding with CodePal, an innovative AI-powered coding assistant that's transforming the way we write code.\n\nCodePal stands out with its AI-driven code generator, supporting a vast array of programming languages like Python, Java, and C++. This isn't just about generating any code; it's about creating code that can handle complex tasks like sentiment analysis, dramatically speeding up the development process.\n\nBut what really sets CodePal apart? It's the comprehensive suite of tools it offers. Imagine a platform where you can not only generate code but also review it, simplify it, detect bugs, and even write unit tests. CodePal does all that, making coding more efficient and less error-prone.\n\nNow, let's talk about the technology behind CodePal. This platform leverages advanced machine learning and natural language processing. It's not just using predefined templates; it understands your requirements and adapts to various contexts. This means the code generated is not only accurate but also versatile.\n\nBut with all these advancements, are there any drawbacks? Well, the generated code might sometimes be less efficient or harder to modify compared to hand-written code. It's not a one-size-fits-all solution and requires a discerning eye to ensure the best use.\n\nThe beauty of CodePal lies in its ability to understand complex algorithms from high-level descriptions. You give it a task, and it turns your instructions into functional code. However, the clarity of your instructions plays a crucial role here.\n\nCodePal isn't just for seasoned developers; it's a boon for learners too. By automating code generation, developers can focus more on design and logic, evolving their role in the software development process.\n\nIntegration with popular development environments? Check. CodePal offers APIs and plugins that blend seamlessly into your workflow, providing real-time code suggestions and automations.\n\nAs we look to the future, CodePal promises even more advancements. We're talking about tighter integrations with development tools, real-time collaboration features, and AI-driven debugging.\n\nIn conclusion, CodePal is more than just a coding assistant. It's a revolution in coding, making it more accessible, efficient, and innovative. Whether you're a beginner or a pro, CodePal is definitely worth checking out.\n\nThanks for watching! Don't forget to like, subscribe, and hit the bell icon for more tech updates. See you in the next video!\n\n## YouTube Description\n\n\nWelcome to our tech channel! Today, we're delving into the AI-powered coding realm with CodePal. Is it too good to be true? Let's find out.\n\nCodePal, the AI-driven code generator, supports multiple programming languages, from Python to Java and C++. It's not just about code; it's about handling complex tasks like sentiment analysis, revolutionizing the development process.\n\nWhat sets CodePal apart? Its comprehensive toolset. It's not just code generation; it's code review, simplification, bug detection, and unit tests - all in one. Efficiency and error reduction at its best.\n\nThe tech behind CodePal? Advanced machine learning and natural language processing. No predefined templates; it understands your needs and adapts. Accuracy meets versatility.\n\nBut are there drawbacks? Sometimes, hand-written code may outshine generated code in efficiency and adaptability. It's not one-size-fits-all.\n\nCodePal interprets complex algorithms from high-level descriptions. Clarity in your instructions matters.\n\nIt's not just for pros; it's a learning tool too. Automating code generation frees you to focus on design and logic.\n\nIntegration with development environments? Absolutely. CodePal seamlessly blends into your workflow, offering real-time suggestions and automations.\n\nThe future? Tighter integrations, real-time collaboration, AI-driven debugging.\n\nIn conclusion, CodePal is a coding revolution. Accessible, efficient, and innovative, whether you're a beginner or pro. Thanks for watching! Like, subscribe, and hit the bell for more tech updates. See you next time!"
+            "content": "## Title\n\nAI-Powered Coding with CodePal: Too Good To Be True?\n\n## Script\n\nWelcome to our Trend 10, where today, we're diving into the world of AI coding with CodePal, an innovative AI-powered coding assistant that's transforming the way we write code.\n\nCodePal stands out with its AI-driven code generator, supporting a vast array of programming languages like Python, Java, and C++. \n\nThis isn't just about generating any code; it's about creating code that can handle complex tasks like sentiment analysis, dramatically speeding up the development process.\n\nBut what really sets CodePal apart? \n\nIt's the comprehensive suite of tools it offers. \n\nImagine a platform where you can not only generate code but also review it, simplify it, detect bugs, and even write unit tests. \n\nCodePal does all that, making coding more efficient and less error-prone.\n\nNow, let's talk about the technology behind CodePal. \n\nThis platform leverages advanced machine learning and natural language processing. \n\nIt's not just using predefined templates. \n\nIt understands your requirements and adapts to various contexts. This means the code generated is not only accurate but also versatile.\n\nBut with all these advancements, are there any drawbacks? \n\nWell, the generated code might sometimes be less efficient or harder to modify compared to hand-written code. It's not a one-size-fits-all solution and requires a discerning eye to ensure the best use.\n\nThe beauty of CodePal lies in its ability to understand complex algorithms from high-level descriptions. \n\nYou give it a task, and it turns your instructions into functional code. However, the clarity of your instructions plays a crucial role here.\n\nCodePal isn't just for seasoned developers \n\nIt's a boon for learners too. \n\nBy automating code generation, developers can focus more on design and logic, evolving their role in the software development process.\n\nIntegration with popular development environments? Check. \n\nCodePal offers APIs and plugins that blend seamlessly into your workflow, providing real-time code suggestions and automations.\n\nAs we look to the future, CodePal promises even more advancements. \n\nWe're talking about tighter integrations with development tools, real-time collaboration features, and AI-driven debugging.\n\nIn conclusion \n\nCodePal is more than just a coding assistant. It's a revolution in coding, making it more accessible, efficient, and innovative. \n\nWhether you're a beginner or a pro, CodePal is definitely worth checking out.\n\nThanks for watching! \n\nDon't forget to subscribe and hit the bell icon for more! \n\nSee you in the next video!\n"
+          },
+          {
+            "file_name": "03-script-lowerthirds.md",
+            "type": "script",
+            "content": "Welcome to our tech channel,\n\nwhere today, we're diving\n\ninto the world of AI coding\n\nwith CodePal, an innovative\n\nAI-powered coding assistant\n\nthat's transforming the way\n\nwe write code.\n\nCodePal stands out with its\n\nAI-driven code generator,\n\nsupporting a vast array of\n\nprogramming languages like\n\nPython, Java, and C++.\n\nThis isn't just about\n\ngenerating any code;\n\nit's about creating code\n\nthat can handle complex tasks\n\nlike sentiment analysis,\n\ndramatically speeding up\n\nthe development process.\n\nBut what really sets CodePal apart?\n\nIt's the comprehensive suite\n\nof tools it offers. Imagine\n\na platform where you can not only\n\ngenerate code but also review it,\n\nsimplify it, detect bugs,\n\nand even write unit tests.\n\nCodePal does all that, making\n\ncoding more efficient\n\nand less error-prone.\n\nNow, let's talk about the\n\ntechnology behind CodePal.\n\nThis platform leverages advanced\n\nmachine learning and natural\n\nlanguage processing. It's not just\n\nusing predefined templates;\n\nit understands your requirements\n\nand adapts to various contexts.\n\nThis means the code generated\n\nis not only accurate but also\n\nversatile.\n\nBut with all these advancements,\n\nare there any drawbacks? Well,\n\nthe generated code might sometimes\n\nbe less efficient or harder\n\nto modify compared to\n\nhand-written code. It's not\n\na one-size-fits-all solution\n\nand requires a discerning eye\n\nto ensure the best use.\n\nThe beauty of CodePal lies in\n\nits ability to understand complex\n\nalgorithms from high-level\n\ndescriptions. You give it a task,\n\nand it turns your instructions\n\ninto functional code. However,\n\nthe clarity of your instructions\n\nplays a crucial role here.\n\nCodePal isn't just for\n\nseasoned developers; it's a boon\n\nfor learners too. By automating\n\ncode generation, developers can\n\nfocus more on design and logic,\n\nevolving their role in the\n\nsoftware development process.\n\nIntegration with popular\n\ndevelopment environments? Check.\n\nCodePal offers APIs and plugins\n\nthat blend seamlessly into your\n\nworkflow, providing real-time\n\ncode suggestions and automations.\n\nAs we look to the future,\n\nCodePal promises even more\n\nadvancements. We're talking about\n\ntighter integrations with\n\ndevelopment tools, real-time\n\ncollaboration features,\n\nand AI-driven debugging.\n\nIn conclusion, CodePal is more\n\nthan just a coding assistant.\n\nIt's a revolution in coding,\n\nmaking it more accessible,\n\nefficient, and innovative.\n\nWhether you're a beginner\n\nor a pro, CodePal is\n\ndefinitely worth checking out.\n\nThanks for watching!\n\nDon't forget to like, subscribe,\n\nand hit the bell icon\n\nfor more tech updates.\n\nSee you in the next video!"
+          },
+          {
+            "file_name": "08-youtube-description.md",
+            "type": "script",
+            "content": "Welcome to our tech channel! Today, we're delving into the AI-powered coding realm with CodePal. Is it too good to be true? Let's find out.\n\nCodePal, the AI-driven code generator, supports multiple programming languages, from Python to Java and C++. It's not just about code; it's about handling complex tasks like sentiment analysis, revolutionizing the development process.\n\nWhat sets CodePal apart? Its comprehensive toolset. It's not just code generation; it's code review, simplification, bug detection, and unit tests - all in one. Efficiency and error reduction at its best.\n\nThe tech behind CodePal? Advanced machine learning and natural language processing. No predefined templates; it understands your needs and adapts. Accuracy meets versatility.\n\nBut are there drawbacks? Sometimes, hand-written code may outshine generated code in efficiency and adaptability. It's not one-size-fits-all.\n\nCodePal interprets complex algorithms from high-level descriptions. Clarity in your instructions matters.\n\nIt's not just for pros; it's a learning tool too. Automating code generation frees you to focus on design and logic.\n\nIntegration with development environments? Absolutely. CodePal seamlessly blends into your workflow, offering real-time suggestions and automations.\n\nThe future? Tighter integrations, real-time collaboration, AI-driven debugging.\n\nIn conclusion, CodePal is a coding revolution. Accessible, efficient, and innovative, whether you're a beginner or pro. Thanks for watching! Like, subscribe, and hit the bell for more tech updates. See you next time!"
+          },
+          {
+            "file_name": "666-fuckit.md",
+            "type": "other",
+            "content": "# Fuckit\n\n## Mother Fucker\n\n### Fucknel\n\n- One\n- Two \n- there\n\nCoool cool cool"
           }
         ],
         "media": {
           "asset": [
             {
               "type": "video",
+              "file": "CodePAL 2.mp4"
+            },
+            {
+              "type": "video",
               "file": "CodePAL.mp4"
+            },
+            {
+              "type": "voiceover",
+              "file": "codepal.mp3"
             }
           ]
         }
